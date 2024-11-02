@@ -6,10 +6,10 @@ const Header = () => {
   return (
     <nav>
       <button>
-        <Link to="/">Home</Link>
+        <Link to="/cpit-405-lab-8/">Home</Link>
       </button>
       <button>
-        <Link to="/about">About us</Link>
+        <Link to="/cpit-405-lab-8/about">About us</Link>
       </button>
     </nav>
   );
