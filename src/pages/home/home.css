@@ -46,6 +46,7 @@
 
 .container .result{
     background-color: #F5F6F7;
+    height: 42px;
 }
 
 .container .result p{
