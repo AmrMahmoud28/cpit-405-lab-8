@@ -8,7 +8,7 @@ const Home = () => {
 
   const handleShorten = () => {
     if (longUrl) {
-      setShortUrl(shortCode && `https://cpit405.co/${shortCode}`);
+      setShortUrl(shortCode ? `https://cpit405.co/${shortCode}` : `https://cpit405.co/${Math.random().toString(36).substring(6)}`);
     }
   };
 
